@@ -2,9 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    public HighScores highScores;
+    //reference to the overlay text to display winning text, etc.
+    public TextMeshProUGUI messageText;
+    public TextMeshProUGUI timerText;
+    public TextMeshProUGUI scoreText;
+
     public TargetHealth[] targets;
     public GameObject player;
     public Camera worldCamera;
@@ -47,6 +54,10 @@ public class GameManager : MonoBehaviour
             targets[i].gameObject.SetActive(false);
         }
         startTimer = startTimerAmount;
+        messageText.text = "Press Enter to Start";
+        timerText.text = " ";
+        scoreText.text = " ";
+
     }
     private void Update()
     {
@@ -73,9 +84,13 @@ public class GameManager : MonoBehaviour
     }
     private void GameStateStart()
     {
-        startTimerAmount -= Time.deltaTime;
-        if (startTimerAmount < 0)
+        startTimer -= Time.deltaTime;
+
+        messageText.text = "Get Ready " + (int)(startTimer + 1);
+
+        if (startTimer < 0)
         {
+            messageText.text = " ";
             gameState = GameState.Playing;
             gameTimer = gametimerAmount;
             startTimer = startTimerAmount;
@@ -86,12 +101,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
+
     private void GameStatePlaying()
     {
         gameTimer -= Time.deltaTime;
+        int seconds = Mathf.RoundToInt(gameTimer);
+        timerText.text = string.Format("Time: {0:D2}:{1:D2}",
+            (seconds / 60), (seconds % 60));
         if (gameTimer <= 0)
         {
-            Debug.Log("Game Over Score: " + score);
+            messageText.text = "Game Over! Score: " + score + "Press enter to play again.";
             gameState = GameState.Gameover;
             player.SetActive(false);
             worldCamera.gameObject.SetActive(true);
@@ -99,6 +118,8 @@ public class GameManager : MonoBehaviour
             {
                 targets[i].gameObject.SetActive(false);
             }
+            highScores.AddScore(score);
+            highScores.SaveScoresToFile();
         }
         //timer before activating target
         targetActivateTimer -= Time.deltaTime;
@@ -113,6 +134,8 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Return))
         {
             gameState = GameState.Start;
+            timerText.text = " ";
+            scoreText.text = " ";
         }
     }
 
@@ -125,6 +148,7 @@ public class GameManager : MonoBehaviour
     public void AddScore(int points)
     {
         score += points;
+        scoreText.text = "Score: " + score;
     }
 }
 
