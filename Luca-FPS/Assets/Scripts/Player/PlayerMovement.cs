@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
         FirstPersonCam = GetComponentInChildren<Camera>();   
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
     void JumpAndGravity()
