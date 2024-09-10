@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 254660123540953171}
-  - component: {fileID: 6552205246493578901}
   m_Layer: 0
   m_Name: Fire Transform
   m_TagString: Untagged
@@ -32,18 +31,6 @@ Transform:
   m_Father: {fileID: 6552205246378703847}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6552205246493578901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2482277699425067513}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3cf10fa86fe8dc4d848e89322c81a81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6552205246229614616
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,7 +186,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6552205246378703842}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!1 &6552205246470105151
 GameObject:
   m_ObjectHideFlags: 0
