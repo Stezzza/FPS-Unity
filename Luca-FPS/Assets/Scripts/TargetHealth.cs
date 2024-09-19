@@ -12,7 +12,7 @@ public class TargetHealth : MonoBehaviour
 
     public GameManager gameManager;
 
-    public GameManager Gamemanger {  get { return gameManager; } set { gameManager = value; } }
+    public GameManager Gamemanger { get { return gameManager; } set { gameManager = value; } }
 
     void OnEnable()
     {
@@ -34,7 +34,7 @@ public class TargetHealth : MonoBehaviour
     {
         currentHealth -= damage;
         //if our health is 0 or less, call disable targets
-        if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
             DisableTarget();
         }

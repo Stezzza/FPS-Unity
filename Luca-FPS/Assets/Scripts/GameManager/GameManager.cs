@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     public Button highScoresButton;
 
     public TargetHealth[] targets;
+    public GameObject _targetPrefab;
+    public GameObject[] _spawnSpots;
     public GameObject player;
     public Camera worldCamera;
 
@@ -31,7 +33,7 @@ public class GameManager : MonoBehaviour
     private float startTimer;
 
     public float targetActivateTimerAmount = 1;
-    private float targetActivateTimer;
+    public float targetActivateTimer;
 
     public float gametimerAmount = 60;
     private float gameTimer;
@@ -53,19 +55,14 @@ public class GameManager : MonoBehaviour
         gameState = GameState.Gameover;
         Menu.Play();  // Start with menu music
         Playing.Stop();  // Ensure the game music isn't playing at the start
-    }
+        _spawnSpots = GameObject.FindGameObjectsWithTag("Spawn");
 
+    }
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Confined;
         player.SetActive(false);
         worldCamera.gameObject.SetActive(true);
-
-        for (int i = 0; i < targets.Length; i++)
-        {
-            targets[i].gameManager = this;
-            targets[i].gameObject.SetActive(false);
-        }
 
         startTimer = startTimerAmount;
         messageText.text = "Press Enter to Start";
@@ -76,6 +73,7 @@ public class GameManager : MonoBehaviour
         newGameButton.gameObject.SetActive(true);
         highScoresButton.gameObject.SetActive(true);
     }
+
 
     private void Update()
     {
@@ -100,7 +98,10 @@ public class GameManager : MonoBehaviour
 
     private void GameStateStart()
     {
+        
         highScorePanel.gameObject.SetActive(false);
+        highScoresButton.gameObject.SetActive(false);
+        newGameButton.gameObject.SetActive(false);
         startTimer -= Time.deltaTime;
 
         messageText.text = "Get Ready " + (int)(startTimer + 1);
@@ -119,6 +120,15 @@ public class GameManager : MonoBehaviour
 
             Menu.Stop();  // Stop menu music
             Playing.Play();  // Start game music
+        }
+    }
+
+    private void SpawnTargets()
+    {
+        foreach (GameObject spawnSpot in _spawnSpots)
+        {
+            // Instantiate a target prefab at a random position within the bounds of the spawn spot
+            Instantiate(_targetPrefab, RandomPointInBounds(spawnSpot.GetComponent<BoxCollider>().bounds), Quaternion.identity);
         }
     }
 
@@ -159,7 +169,9 @@ public class GameManager : MonoBehaviour
         if (targetActivateTimer <= 0)
         {
             ActivateRandomTarget();
+            SpawnTargets();
             targetActivateTimer = targetActivateTimerAmount;
+
         }
     }
 
@@ -182,6 +194,7 @@ public class GameManager : MonoBehaviour
     public void OnNewGame()
     {
         gameState = GameState.Start;
+        SpawnTargets();
     }
 
     public void OnHighScores()
@@ -204,5 +217,14 @@ public class GameManager : MonoBehaviour
     {
         score += points;
         scoreText.text = "Score: " + score;
+    }
+
+    public Vector3 RandomPointInBounds(Bounds bounds)
+    {
+        return new Vector3(
+            Random.Range(bounds.min.x, bounds.max.x),
+            Random.Range(bounds.min.y, bounds.max.y),
+            Random.Range(bounds.min.z, bounds.max.z)
+        );
     }
 }
