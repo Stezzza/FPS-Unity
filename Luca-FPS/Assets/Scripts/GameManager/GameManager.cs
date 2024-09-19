@@ -1,11 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using UnityEditor;
-using Unity.VisualScripting;
 
 public class GameManager : MonoBehaviour
 {
@@ -20,7 +17,6 @@ public class GameManager : MonoBehaviour
     public Button newGameButton;
     public Button highScoresButton;
 
-    public TargetHealth[] targets;
     public GameObject _targetPrefab;
     public GameObject[] _spawnSpots;
     public GameObject player;
@@ -32,13 +28,10 @@ public class GameManager : MonoBehaviour
     public float startTimerAmount = 3;
     private float startTimer;
 
-    public float targetActivateTimerAmount = 1;
-    public float targetActivateTimer;
+    private float gameTimer; // counts up
 
-    public float gametimerAmount = 60;
-    private float gameTimer;
-
-    private int score = 0;
+    private int hitCount = 0;
+    private const int maxHits = 10; // ends at 10 hits
 
     public enum GameState
     {
@@ -50,14 +43,16 @@ public class GameManager : MonoBehaviour
     public GameState gameState;
     public GameState State { get { return gameState; } }
 
+    private GameObject currentTarget;
+
     private void Awake()
     {
         gameState = GameState.Gameover;
-        Menu.Play();  // Start with menu music
-        Playing.Stop();  // Ensure the game music isn't playing at the start
+        Menu.Play();
+        Playing.Stop();
         _spawnSpots = GameObject.FindGameObjectsWithTag("Spawn");
-
     }
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Confined;
@@ -67,19 +62,26 @@ public class GameManager : MonoBehaviour
         startTimer = startTimerAmount;
         messageText.text = "Press Enter to Start";
         timerText.text = " ";
-        scoreText.text = " ";
+        scoreText.text = "Hits: 0 / 10";
 
         highScorePanel.gameObject.SetActive(false);
         newGameButton.gameObject.SetActive(true);
         highScoresButton.gameObject.SetActive(true);
     }
 
-
     private void Update()
     {
         if (Input.GetKeyUp(KeyCode.Escape))
         {
             Application.Quit();
+        }
+
+        if (Input.GetKeyUp(KeyCode.Return))
+        {
+            if (gameState == GameState.Gameover || gameState == GameState.Start)
+            {
+                OnNewGame();
+            }
         }
 
         switch (gameState)
@@ -98,103 +100,132 @@ public class GameManager : MonoBehaviour
 
     private void GameStateStart()
     {
-        
         highScorePanel.gameObject.SetActive(false);
         highScoresButton.gameObject.SetActive(false);
         newGameButton.gameObject.SetActive(false);
         startTimer -= Time.deltaTime;
 
-        messageText.text = "Get Ready " + (int)(startTimer + 1);
+        messageText.text = "Get Ready " + Mathf.CeilToInt(startTimer).ToString();
 
-        if (startTimer < 0)
+        if (startTimer <= 0)
         {
             Cursor.lockState = CursorLockMode.Locked;
             messageText.text = " ";
             gameState = GameState.Playing;
-            gameTimer = gametimerAmount;
+            gameTimer = 0f;
             startTimer = startTimerAmount;
-            score = 0;
+            hitCount = 0;
+
+            scoreText.text = "Hits: 0 / 10";
 
             player.SetActive(true);
             worldCamera.gameObject.SetActive(false);
 
-            Menu.Stop();  // Stop menu music
-            Playing.Play();  // Start game music
+            Menu.Stop();
+            Playing.Play();
+
+            SpawnTarget();
         }
     }
 
-    private void SpawnTargets()
+    // spawn a target
+    private void SpawnTarget()
     {
-        foreach (GameObject spawnSpot in _spawnSpots)
+        if (currentTarget != null)
         {
-            // Instantiate a target prefab at a random position within the bounds of the spawn spot
-            Instantiate(_targetPrefab, RandomPointInBounds(spawnSpot.GetComponent<BoxCollider>().bounds), Quaternion.identity);
+            Destroy(currentTarget);
         }
+
+        if (_spawnSpots.Length == 0)
+        {
+            Debug.LogWarning("no spawn spots");
+            return;
+        }
+
+        int randomSpawnIndex = Random.Range(0, _spawnSpots.Length);
+        GameObject spawnSpot = _spawnSpots[randomSpawnIndex];
+
+        BoxCollider spawnCollider = spawnSpot.GetComponent<BoxCollider>();
+        if (spawnCollider == null)
+        {
+            Debug.LogWarning($"spawn spot {spawnSpot.name} missing collider");
+            return;
+        }
+
+        Vector3 spawnPosition = RandomPointInBounds(spawnCollider.bounds);
+        currentTarget = Instantiate(_targetPrefab, spawnPosition, Quaternion.identity);
+
+        TargetHealth targetHealth = currentTarget.GetComponent<TargetHealth>();
+        if (targetHealth != null)
+        {
+            targetHealth.gameManager = this;
+        }
+        else
+        {
+            Debug.LogWarning("target missing TargetHealth");
+        }
+    }
+
+    // random point in bounds
+    public Vector3 RandomPointInBounds(Bounds bounds)
+    {
+        return new Vector3(
+            Random.Range(bounds.min.x, bounds.max.x),
+            Random.Range(bounds.min.y, bounds.max.y),
+            Random.Range(bounds.min.z, bounds.max.z)
+        );
     }
 
     private void GameStatePlaying()
     {
         highScorePanel.gameObject.SetActive(false);
         newGameButton.gameObject.SetActive(false);
-        gameTimer -= Time.deltaTime;
 
-        int seconds = Mathf.RoundToInt(gameTimer);
-        timerText.text = string.Format("Time: {0:D2}:{1:D2}", (seconds / 60), (seconds % 60));
+        gameTimer += Time.deltaTime;
 
-        if (gameTimer <= 0)
+        int minutes = Mathf.FloorToInt(gameTimer / 60F);
+        int seconds = Mathf.FloorToInt(gameTimer % 60F);
+        timerText.text = string.Format("Time: {0:00}:{1:00}", minutes, seconds);
+    }
+
+    // end the game
+    private void EndGame()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+
+        int minutes = Mathf.FloorToInt(gameTimer / 60F);
+        int seconds = Mathf.FloorToInt(gameTimer % 60F);
+        string formattedTime = string.Format("{0:00}:{1:00}", minutes, seconds);
+
+        messageText.text = $"game over!\ntime: {formattedTime}\npress enter to play again.";
+        gameState = GameState.Gameover;
+
+        player.SetActive(false);
+        worldCamera.gameObject.SetActive(true);
+
+        if (currentTarget != null)
         {
-            Cursor.lockState = CursorLockMode.Confined;
-            messageText.text = "Game Over! Score: " + score + "\nPress enter to play again.";
-            gameState = GameState.Gameover;
-
-            player.SetActive(false);
-            worldCamera.gameObject.SetActive(true);
-
-            for (int i = 0; i < targets.Length; i++)
-            {
-                targets[i].gameObject.SetActive(false);
-            }
-
-            highScores.AddScore(score);
-            highScores.SaveScoresToFile();
-
-            newGameButton.gameObject.SetActive(false);
-            highScoresButton.gameObject.SetActive(true);
-
-            Playing.Stop();  // Stop game music
-            Menu.Play();  // Return to menu music
+            Destroy(currentTarget);
         }
 
-        targetActivateTimer -= Time.deltaTime;
-        if (targetActivateTimer <= 0)
-        {
-            ActivateRandomTarget();
-            SpawnTargets();
-            targetActivateTimer = targetActivateTimerAmount;
+        highScores.AddTime(gameTimer);
+        highScores.SaveTimesToFile();
 
-        }
+        newGameButton.gameObject.SetActive(false);
+        highScoresButton.gameObject.SetActive(true);
+
+        Playing.Stop();
+        Menu.Play();
     }
 
     private void GameStateGameOver()
     {
-        if (Input.GetKeyUp(KeyCode.Return))
-        {
-            gameState = GameState.Start;
-            timerText.text = " ";
-            scoreText.text = " ";
-        }
-    }
-
-    private void ActivateRandomTarget()
-    {
-        int randomIndex = Random.Range(0, targets.Length);
-        targets[randomIndex].gameObject.SetActive(true);
+        // wait for enter
     }
 
     public void OnNewGame()
     {
         gameState = GameState.Start;
-        SpawnTargets();
     }
 
     public void OnHighScores()
@@ -206,25 +237,36 @@ public class GameManager : MonoBehaviour
         newGameButton.gameObject.SetActive(true);
 
         string text = "";
-        for (int i = 0; i < highScores.scores.Length; i++)
+        for (int i = 0; i < highScores.times.Length; i++)
         {
-            text += highScores.scores[i] + "\n";
+            float time = highScores.times[i];
+            if (time > 0f)
+            {
+                int minutes = Mathf.FloorToInt(time / 60F);
+                int seconds = Mathf.FloorToInt(time % 60F);
+                text += string.Format("{0:00}:{1:00}", minutes, seconds) + "\n";
+            }
+            else
+            {
+                text += "--:--\n";
+            }
         }
         highScoresText.text = text;
     }
 
+    // add a hit
     public void AddScore(int points)
     {
-        score += points;
-        scoreText.text = "Score: " + score;
-    }
+        hitCount++;
+        scoreText.text = $"Hits: {hitCount} / {maxHits}";
 
-    public Vector3 RandomPointInBounds(Bounds bounds)
-    {
-        return new Vector3(
-            Random.Range(bounds.min.x, bounds.max.x),
-            Random.Range(bounds.min.y, bounds.max.y),
-            Random.Range(bounds.min.z, bounds.max.z)
-        );
+        if (hitCount >= maxHits)
+        {
+            EndGame();
+        }
+        else
+        {
+            SpawnTarget();
+        }
     }
 }

@@ -5,100 +5,96 @@ using UnityEngine;
 
 public class HighScores : MonoBehaviour
 {
-    public int[] scores = new int[10];
+    public float[] times = new float[10]; // store times
 
-    string currentDirectory;
-
+    private string currentDirectory;
     public string scoreFileName = "highscores.txt";
 
-    // Start is called before the first frame update
     void Start()
     {
         currentDirectory = Application.dataPath;
-        Debug.Log("Our current directory is: " + currentDirectory);
-
-        LoadScoresFromFile();
+        Debug.Log("current dir: " + currentDirectory);
+        LoadTimesFromFile();
     }
 
-    // Update is called once per frame
-    void Update()
+    /// load scores from file
+    public void LoadTimesFromFile()
     {
-    }
-
-    public void LoadScoresFromFile()
-    {
-        bool fileExists = File.Exists(currentDirectory + "\\" + scoreFileName);
-        if (fileExists == true)
+        string filePath = Path.Combine(currentDirectory, scoreFileName);
+        if (File.Exists(filePath))
         {
-            Debug.Log("Found high score file" + scoreFileName);
+            Debug.Log("found file: " + scoreFileName);
         }
         else
         {
-            Debug.Log("The file " + scoreFileName + " does not exist. No scores will be loaded.", this);
+            Debug.Log("file not found: " + scoreFileName, this);
             return;
         }
-        scores = new int[scores.Length];
 
-        StreamReader fileReader = new StreamReader(currentDirectory + "\\" + scoreFileName);
+        times = new float[times.Length];
 
-        int scoreCount = 0;
-
-        while (fileReader.Peek() != 0 && scoreCount < scores.Length)
+        using (StreamReader reader = new StreamReader(filePath))
         {
-            string fileLine = fileReader.ReadLine();
-
-            int readScore = -1;
-
-            bool didParse = int.TryParse(fileLine, out readScore);
-            if (didParse)
+            int count = 0;
+            while (reader.Peek() != -1 && count < times.Length)
             {
-                scores[scoreCount] = readScore;
+                string line = reader.ReadLine();
+                if (float.TryParse(line, out float readTime))
+                {
+                    times[count] = readTime;
+                }
+                else
+                {
+                    Debug.Log("invalid line at " + count, this);
+                    times[count] = 0f;
+                }
+                count++;
             }
-            else
-            {
-                Debug.Log("Invalid line in scores file at " + scoreCount + ", using default value.", this);
-                scores[scoreCount] = 0;
-            }
-            scoreCount++;
         }
-        fileReader.Close();
-        Debug.Log("High scores read from " + scoreFileName);
+
+        Debug.Log("high times read from " + scoreFileName);
     }
 
-    public void SaveScoresToFile()
+    /// save scores to file
+    public void SaveTimesToFile()
     {
-        StreamWriter fileWriter = new StreamWriter(currentDirectory + "\\" + scoreFileName);
-
-        for (int i = 0; i < scores.Length; i++)
+        string filePath = Path.Combine(currentDirectory, scoreFileName);
+        using (StreamWriter writer = new StreamWriter(filePath, false))
         {
-            fileWriter.WriteLine(scores[i]);
+            foreach (float time in times)
+            {
+                writer.WriteLine(time);
+            }
         }
-        fileWriter.Close();
 
-        Debug.Log("High scores written to " + scoreFileName);
+        Debug.Log("high times written to " + scoreFileName);
     }
 
-    public void AddScore(int newScore)
+    /// add new time if it's top 10
+    public void AddTime(float newTime)
     {
-        int desiredIndex = -1;
-        for (int i = 0; i < scores.Length; i++)
+        int index = -1;
+        for (int i = 0; i < times.Length; i++)
         {
-            if (scores[i] < newScore || scores[i] == 0)
+            if (newTime < times[i] || times[i] == 0f)
             {
-                desiredIndex = i;
+                index = i;
                 break;
             }
         }
-        if(desiredIndex < 0)
+
+        if (index < 0)
         {
-            Debug.Log("Score of " + newScore + " not high enough for high scorefs list.", this);
+            Debug.Log("time " + newTime + " not high enough", this);
             return;
         }
-        for (int i = scores.Length - 1; i > desiredIndex; i--)
+
+        for (int i = times.Length - 1; i > index; i--)
         {
-            scores[i] = scores[i - 1];
+            times[i] = times[i - 1];
         }
-        scores[desiredIndex] = newScore;
-        Debug.Log("Score of " + newScore + " entered into high scores at position " + desiredIndex, this);
+
+        times[index] = newTime;
+        Debug.Log("time " + newTime + " added at " + index, this);
     }
 }

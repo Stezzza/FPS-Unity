@@ -4,39 +4,46 @@ using UnityEngine;
 
 public class TargetHealth : MonoBehaviour
 {
-
-    public int maxHealth = 3;
-    public int points = 1;
+    public int maxHealth = 1; // each hit destroys
+    public int points = 1; // hit points
 
     private int currentHealth;
 
-    public GameManager gameManager;
-
-    public GameManager Gamemanger { get { return gameManager; } set { gameManager = value; } }
+    [HideInInspector]
+    public GameManager gameManager; // assign from GameManager
 
     void OnEnable()
     {
-        //set current health to max health
-        currentHealth = maxHealth;
+        currentHealth = maxHealth; // set health
     }
 
     private void DisableTarget()
     {
-        Debug.Log("Pew");
+        Debug.Log("target hit!");
         if (gameManager != null)
         {
             gameManager.AddScore(points);
         }
+        else
+        {
+            Debug.LogWarning("missing gameManager reference");
+        }
         gameObject.SetActive(false);
     }
 
+    // damage the target
     public void Damage(int damage)
     {
         currentHealth -= damage;
-        //if our health is 0 or less, call disable targets
         if (currentHealth <= 0)
         {
             DisableTarget();
         }
+    }
+
+    // hit with mouse
+    private void OnMouseDown()
+    {
+        Damage(1);
     }
 }
