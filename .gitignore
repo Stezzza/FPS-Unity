@@ -1,0 +1,501 @@
+
+Luca-FPS/Assets/Simple Modular Dungeon/Components.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Mesh Containers.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Mesh Containers/Arch 001.fbx
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Mesh Containers/Arch 001.fbx.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Mesh Containers/LargePodium.fbx
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Mesh Containers/LargePodium.fbx.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Mesh Containers/ModularDungeonSeperatedMaterials.fbx
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Mesh Containers/ModularDungeonSeperatedMaterials.fbx.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/Fire_Texture-ADL-49F75D.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/Fire_Texture.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/Fire_Texture/fire-texture.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/Fire_Texture/fire-texture.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 001)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 001)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 001)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 001)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 002)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 002)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 003)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 003)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 003)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 003)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 004)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 004)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 004)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 004)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 005)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 005)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 006)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 006)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 007)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 007)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 009)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 009)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 009)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 009)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 009)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 009)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 009)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 009)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 010)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 010)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 010)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 010)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).001_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).001_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).002_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).002_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).003_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).003_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).003_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).003_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).004_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).004_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).004_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).004_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).004_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).004_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).004_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).004_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).005_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).005_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).005_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).005_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).006_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).006_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).008_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).008_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).008_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).008_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).009_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).009_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).009_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).009_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).009_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).009_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).001_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).001_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).002_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).002_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).003_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).003_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).003_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).003_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).004_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).004_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).004_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).004_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).004_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).004_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).005_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).005_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).006_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).006_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).007_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).007_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).008_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).008_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).009_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).009_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).009_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).009_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).009_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).009_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 001).001_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 001).001_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 001).001_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 001).001_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 002)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 002)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 002)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 002)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 002)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 002)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 004)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 004)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 004)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 004)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 005)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 005)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 005)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 005)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 005)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 005)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 005)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 005)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 006)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 006)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 008)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 008)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 008)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 008)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 009)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 009)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 009)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 009)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 009)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 009)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 010)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 010)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 010)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 010)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 010)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 010)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Bookshelf Variation 002)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Bookshelf Variation 002)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Bookshelf Variation 002)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Bookshelf Variation 002)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Bookshelf Variation 002)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Bookshelf Variation 002)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Bookshelf Variation 002)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Bookshelf Variation 002)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Barrel Variation 001)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Barrel Variation 001)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Barrel Variation 001)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Barrel Variation 001)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Barrel Variation 001)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Barrel Variation 001)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Bookshelf Variation 001)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Bookshelf Variation 001)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Bookshelf Variation 001)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Bookshelf Variation 001)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Crate Variation 001)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Crate Variation 001)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Crate Variation 001)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Crate Variation 001)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Crate Variation 001)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Crate Variation 001)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Crate Variation 001)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Crate Variation 001)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Door Variation 001)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Door Variation 001)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Door Variation 001)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Door Variation 001)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 004)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 004)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 004)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 004)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 004)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 004)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 006)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 006)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Small Crate Variation 001)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Small Crate Variation 001)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 001)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 001)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 001)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 001)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 001)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 001)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 001)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 001)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 001)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 001)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 002)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 002)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 002)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 002)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 002)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 002)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Fire Chalice Variation 001)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Fire Chalice Variation 001)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Fire Chalice Variation 001)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Fire Chalice Variation 001)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Fire Chalice Variation 001)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Fire Chalice Variation 001)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Fire Chalice Variation 001)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Fire Chalice Variation 001)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Torch Variation 001)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Torch Variation 001)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Torch Variation 001)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Torch Variation 001)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Floor Stones (Floor rock Variation 002)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Floor Stones (Floor rock Variation 002)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Floor Stones (Floor rock Variation 002)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Floor Stones (Floor rock Variation 002)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Lava Grate (Lava Grate Variation 001)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Lava Grate (Lava Grate Variation 001)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Lava Grate (Lava Grate Variation 001)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Lava Grate (Lava Grate Variation 001)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Lava Grate (Lava Grate Variation 001)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Lava Grate (Lava Grate Variation 001)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Light Brown Wood (Bookshelf empty Variation 002)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Light Brown Wood (Bookshelf empty Variation 002)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Light Brown Wood (Bookshelf empty Variation 002)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Light Brown Wood (Bookshelf empty Variation 002)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Light Brown Wood (Bookshelf empty Variation 002)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Light Brown Wood (Bookshelf empty Variation 002)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Light Brown Wood (Bookshelf Variation 002)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Light Brown Wood (Bookshelf Variation 002)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Light Brown Wood (Bookshelf Variation 002)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Light Brown Wood (Bookshelf Variation 002)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Barrel Variation 001)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Barrel Variation 001)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Barrel Variation 001)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Barrel Variation 001)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Candelabra Variation 001)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Candelabra Variation 001)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Door Variation 001)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Door Variation 001)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 001)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 001)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 002)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 002)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 003)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 003)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 003)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 003)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 003)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 003)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 004)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 004)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 005)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 005)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 005)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 005)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 006)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 006)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 006)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 006)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Grate Variation 001)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Grate Variation 001)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Lava Grate Variation 001)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Lava Grate Variation 001)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Torch Variation 001)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Torch Variation 001)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Torch Variation 001)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Torch Variation 001)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Torch Variation 002)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Torch Variation 002)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Water Grate Variation 001)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Water Grate Variation 001)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Arch Variation 001)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Arch Variation 001)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Arch Variation 001)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Arch Variation 001)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Gated Variation 002)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Gated Variation 002)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 001)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 001)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 001)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 001)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 002)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 002)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 002)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 002)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 002)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 002)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 003)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 003)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 004)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 004)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 004)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 004)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 004)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 004)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 005)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 005)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 005)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 005)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 006)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 006)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (lPillar Variation 002)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (lPillar Variation 002)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (lPillar Variation 002)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (lPillar Variation 002)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Pillar Variation 001)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Pillar Variation 001)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Pillar Variation 003)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Pillar Variation 003)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Pillar Variation 003)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Pillar Variation 003)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Pillar Variation 003)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Pillar Variation 003)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Podium Large Variation 001)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Podium Large Variation 001)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 001)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 001)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 001)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 001)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 001)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 001)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 001)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 001)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 002)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 002)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 002)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 002)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 002)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 002)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 003)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 003)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 003)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 003)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 004)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 004)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 004)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 004)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 004)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 004)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 005)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 005)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 005)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Wall Variation 005)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Silver Metal (Chest Variation 001)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Silver Metal (Chest Variation 001)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Silver Metal (Chest Variation 001)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Silver Metal (Chest Variation 001)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Arch Variation 001)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Arch Variation 001)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Arch Variation 002)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Arch Variation 002)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Arch Variation 002)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Arch Variation 002)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Arch Variation 002)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Arch Variation 002)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Gated Variation 001)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Gated Variation 001)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Gated Variation 002)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Gated Variation 002)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Gated Variation 003)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Gated Variation 003)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Gated Variation 003)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Gated Variation 003)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Gated Variation 003)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Gated Variation 003)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 001)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 001)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 001)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 001)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 001)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 001)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 001)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 001)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 002)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 002)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 002)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 002)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 002)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 002)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 002)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 002)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 003)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 003)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 005)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 005)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 006)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Doorway Variation 006)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Fire Challice Variation 002)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Fire Challice Variation 002)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Fire Challice Variation 002)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Fire Challice Variation 002)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Fire Challice Variation 002)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Fire Challice Variation 002)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Fire Challice Variation 002)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Fire Challice Variation 002)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Floor Plain)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Floor Plain)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Floor Rock Variation 002)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Floor Rock Variation 002)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Floor Rock Variation 003)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Floor Rock Variation 003)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Floor Rock Variation 003)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Floor Rock Variation 003)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Floor Rock Variation 003)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Floor Rock Variation 003)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Lava Grate Variation 001)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Lava Grate Variation 001)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Lava Grate Variation 001)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Lava Grate Variation 001)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Pillar Variation 001)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Pillar Variation 001)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Pillar Variation 001)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Pillar Variation 001)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Pillar Variation 002)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Pillar Variation 002)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Pillar Variation 002)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Pillar Variation 002)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Pillar Variation 003)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Pillar Variation 003)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Pillar Variation 003)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Pillar Variation 003)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Pillar Variation 003)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Pillar Variation 003)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 001)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 001)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 001)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 001)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 002)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 002)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 002)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 002)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 002)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 002)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 003)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 003)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 003)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 003)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 003)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 003)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 003)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Circle Variation 003)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Large Variation 001)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Large Variation 001)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Large Variation 001)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Podium Large Variation 001)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Stair Variation 001)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Stair Variation 001)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 001)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 001)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 002)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 002)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 003)_Albedo.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 003)_Albedo.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 003)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 003)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 004)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 004)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 004)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 004)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 004)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 004)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 005)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 005)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 006)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 006)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 006)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 006)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 006)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 006)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 007)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 007)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 007)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Wall Variation 007)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Water Grate Variation 001)_BaseMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Water Grate Variation 001)_BaseMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Water Grate Variation 001)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Stone (Water Grate Variation 001)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Wax (Candelabra Variation 001)_Metallic.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Wax (Candelabra Variation 001)_Metallic.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Wax (Candle Variation 001)_AmbientOcclusion.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Wax (Candle Variation 001)_AmbientOcclusion.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Wax (Candle Variation 001)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Wax (Candle Variation 001)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Wick (Candelabra Variation 001)_MaskMap.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Wick (Candelabra Variation 001)_MaskMap.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Wick (Candle Variation 001)_Normal.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Wick (Candle Variation 001)_Normal.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Wood Brown (Chest Variation 001)_Height.png
+Luca-FPS/Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Wood Brown (Chest Variation 001)_Height.png.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Instructions.meta
+Luca-FPS/Assets/Simple Modular Dungeon/Instructions/Simple Modular Dungeon PDF (1).pdf
+Luca-FPS/Assets/Simple Modular Dungeon/Instructions/Simple Modular Dungeon PDF (1).pdf.meta
